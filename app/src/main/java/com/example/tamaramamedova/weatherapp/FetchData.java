@@ -39,7 +39,7 @@ import javax.net.ssl.HttpsURLConnection;
 public class FetchData {
 
     /*
-    Function to return Weather data from OpenWeatherApi
+    Function to return Weather data from OpenWeatherAPI
      */
     public static JSONObject getJSON(Context context,String toUrl, String[] latLong) throws LocationIsNotAvailable {
         int responseCode;
